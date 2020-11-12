@@ -1,0 +1,3 @@
+[config]
+#options: jack, fm
+output = jack
