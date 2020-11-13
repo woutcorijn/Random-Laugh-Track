@@ -1,12 +1,12 @@
 # Random-Laugh-Track
-Play a random laugh track on a random moment on the Raspberry pi.<br>
+Play a random laugh track on a random moment on the **Raspberry PI**.<br>
 The audio can be played through the 3.5mm jack or be transmitted over FM.
 
 <h1>Usage</h1>
 
-1. python3 is needed, installed on most devices by default.
+1. **python3** is needed, installed on most raspberry pi's by default.
 
-2. Clone the Random-Laugh-Track repository.
+2. Change directory to the **home directory (~)** and clone the Random-Laugh-Track repository using following commands.
 
 ```
 cd ~
@@ -15,7 +15,7 @@ git clone https://github.com/woutcorijn/Random-Laugh-Track
 
 3. Audio playback.
 
-For playing sound through the 3.5mm jack you need OMXPlayer.
+For playing sound through the 3.5mm jack you need **OMXPlayer**.
 
 ```
 sudo apt-get install omxplayer
@@ -30,22 +30,28 @@ clone the fm_transmitter repository in the Random-Laugh-Track folder.
 cd Random-Laugh-Track
 git clone https://github.com/markondej/fm_transmitter
 ```
-Next follow the install steps in "How to use it" on the fm_transmitter repository.<br>
-(make sure you have a jumperwire on GPIO4 that acts as an antenna).<br>
+Next follow the install steps in **"How to use it"** on the **fm_transmitter repository**.<br>
+(make sure you have a jumperwire on **GPIO4** that acts as an antenna).<br>
 https://github.com/markondej/fm_transmitter
+
+commands from fm_transmitter repo:<br><br>
+> cd fm_transmitter <br>
+> make
 
 4. Run the script.<br>
 
-Run the shell script in the Random-Laugh-Track folder.<br>
+Run the shell script in the Random-Laugh-Track folder using following command.<br>
 (For transmitting FM you need root access).
 
 ```
+cd ..
 ./Random-Laugh-Track.sh
 ```
 or (When FM transmitting is used)
 ```
 sudo ./Random-Laugh-Track.sh
 ```
+To stop the script press ctrl-c.
 
 <h2>Configuration</h2>
 In the config.txt file you can change the settings.
