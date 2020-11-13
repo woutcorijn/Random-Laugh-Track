@@ -9,6 +9,7 @@ The audio can be played through the 3.5mm jack or be transmitted over FM.
 2. Clone the Random-Laugh-Track repository.
 
 ```
+cd ~
 git clone https://github.com/woutcorijn/Random-Laugh-Track
 ```
 
