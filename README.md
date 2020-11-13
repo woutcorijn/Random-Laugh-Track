@@ -26,6 +26,7 @@ https://github.com/markondej/fm_transmitter
 <br><br>
 clone the fm_transmitter repository in the Random-Laugh-Track folder.
 ```
+cd Random-Laugh-Track
 git clone https://github.com/markondej/fm_transmitter
 ```
 Next follow the install steps in "How to use it" on the fm_transmitter repository.<br>
@@ -38,11 +39,11 @@ Run the shell script in the Random-Laugh-Track folder.<br>
 (For transmitting FM you need root access).
 
 ```
-./Random-Laugh-Track
+./Random-Laugh-Track.sh
 ```
 or (When FM transmitting is used)
 ```
-sudo ./Random-Laugh-Track
+sudo ./Random-Laugh-Track.sh
 ```
 
 <h2>Configuration</h2>
