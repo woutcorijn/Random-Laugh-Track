@@ -1,9 +1,14 @@
 [config]
-#jack: Audio output thru 3.5mm jack.
-#fm: Transmit audio over FM.
-
+#jack = Audio output thru 3.5mm jack.
+#fm = Transmit audio over FM.
 output = jack
 
+#If the output is FM set here the frequency in MHz.
+#The GPIO4 pin is used to transmit the signal.
+frequency = 100.0
+
 #Settings for when the laugh track occures.
+#minimum_seconds = the shortest time the laugh track could occures.
+#maximum_seconds = the longest time the laugh track could occures.
 minimum_seconds = 1
-maximum_seconds = 20
+maximum_seconds = 5

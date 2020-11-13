@@ -15,6 +15,7 @@ class config:
 	output = configparser.get("config", "output")
 	minimum_seconds = int(configparser.get("config", "minimum_seconds"))
 	maximum_seconds = int(configparser.get("config", "maximum_seconds"))
+	frequency = configparser.get("config", "frequency")
 
 Tracks = []
 
@@ -32,6 +33,7 @@ while True:
 
 	elif config.output == "fm":
 		pass
+		 #subprocess.run(["./fm_transmitter", "-f", config.output,  "Tracks/" + str(Tracks[Random_Track]) + ".wav"])
 
 	else:
 		print("Config.txt not correct configured")
