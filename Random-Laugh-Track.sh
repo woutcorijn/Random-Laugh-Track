@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/woutco/Random-Laugh-Track/
+cd ~/Random-Laugh-Track/
 python3 Script.py
