@@ -39,6 +39,6 @@ while True:
 		print("Config.txt not correct configured")
 		break
 
-	print(str(Tracks[Random_Track]) + ".wav")
+	print(str(Tracks[Random_Track]))
 
 	time.sleep(Random_Sleep)
