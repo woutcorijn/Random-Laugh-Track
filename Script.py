@@ -28,17 +28,17 @@ while True:
 	Random_Sleep = random.randint(config.minimum_seconds, config.maximum_seconds)
 
 	if  config.output == "jack":
-		pass
-		#subprocess.run(["omxplayer", "Tracks/" + str(Tracks[Random_Track]) + ".wav"])
+		#pass
+		subprocess.run(["omxplayer", "Tracks/" + str(Tracks[Random_Track]) + ".wav"])
 
 	elif config.output == "fm":
-		pass
-		 #subprocess.run(["./fm_transmitter", "-f", config.output,  "Tracks/" + str(Tracks[Random_Track]) + ".wav"])
+		#pass
+		subprocess.run(["fm_transmitter/fm_transmitter", "-f", config.frequency,  "FM_Tracks/" + str(Tracks[Random_Track]) + ".wav"])
 
 	else:
 		print("Config.txt not correct configured")
 		break
 
-	print("Tracks/" + str(Tracks[Random_Track]) + ".wav")
+	print(str(Tracks[Random_Track]) + ".wav")
 
 	time.sleep(Random_Sleep)
