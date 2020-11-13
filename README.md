@@ -29,7 +29,7 @@ cd Random-Laugh-Track
 git clone https://github.com/markondej/fm_transmitter
 ```
 Follow the install steps in **"How to use it"** on the **fm_transmitter repository**.<br>
-(make sure you have a jumperwire on **GPIO4** that acts as an antenna).<br>
+(make sure you have a jumperwire on **GPIO4** to acts as an antenna).<br>
 https://github.com/markondej/fm_transmitter
 
 commands from fm_transmitter repo:<br><br>
