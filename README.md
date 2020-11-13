@@ -6,10 +6,9 @@ The audio can be played through the 3.5mm jack or be transmitted over FM.
 
 1. **python3** is needed, installed on most raspberry pi's by default.
 
-2. Change directory to the **home directory (~)** and clone the Random-Laugh-Track repository using following commands.
+2. Clone the Random-Laugh-Track repository using following command.
 
 ```
-cd ~
 git clone https://github.com/woutcorijn/Random-Laugh-Track
 ```
 
@@ -25,12 +24,11 @@ For transmitting the FM Signal you need the fm_transmitter github repo by Marcin
 <br>
 https://github.com/markondej/fm_transmitter
 <br><br>
-clone the fm_transmitter repository in the Random-Laugh-Track folder.
 ```
 cd Random-Laugh-Track
 git clone https://github.com/markondej/fm_transmitter
 ```
-Next follow the install steps in **"How to use it"** on the **fm_transmitter repository**.<br>
+Follow the install steps in **"How to use it"** on the **fm_transmitter repository**.<br>
 (make sure you have a jumperwire on **GPIO4** that acts as an antenna).<br>
 https://github.com/markondej/fm_transmitter
 
@@ -38,13 +36,17 @@ commands from fm_transmitter repo:<br><br>
 > cd fm_transmitter <br>
 > make
 
+CD out of the fm_transmitter directory.
+```
+cd ..
+```
+
 4. Run the script.<br>
 
-Run the shell script in the Random-Laugh-Track folder using following command.<br>
+Run the shell script **in** the **Random-Laugh-Track directory** using following command.<br>
 (For transmitting FM you need root access).
 
 ```
-cd ..
 ./Random-Laugh-Track.sh
 ```
 or (When FM transmitting is used)
