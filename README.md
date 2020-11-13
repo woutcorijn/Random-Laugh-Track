@@ -4,7 +4,7 @@ The audio can be played through the 3.5mm jack or be transmitted over FM.
 
 <h1>Usage</h1>
 
-1. You need python3, this is installed by default on most devices.
+1. python3 is needed, installed on most devices by default.
 
 2. Clone the Random-Laugh-Track repository.
 
@@ -24,11 +24,11 @@ For transmitting the FM Signal you need the fm_transmitter github repo by Marcin
 <br>
 https://github.com/markondej/fm_transmitter
 <br><br>
-clone the fm_transmitter repository.
+clone the fm_transmitter repository in the Random-Laugh-Track folder.
 ```
 git clone https://github.com/markondej/fm_transmitter
 ```
-Next follow the install steps in "How to use it" on the fm_transmitter repo.<br>
+Next follow the install steps in "How to use it" on the fm_transmitter repository.<br>
 (make sure you have a jumperwire on GPIO4 that acts as an antenna).<br>
 https://github.com/markondej/fm_transmitter
 
