@@ -76,8 +76,8 @@ output = fm
 frequency = 102.1
 
 #Settings for when the laugh track occures.
-#minimum_seconds = the shortest time the laugh track could occures.
-#maximum_seconds = the longest time the laugh track could occures.
+#minimum_seconds = the shortest time the laugh track could occure.
+#maximum_seconds = the longest time the laugh track could occure.
 minimum_seconds = 1
 maximum_seconds = 30
 ```
